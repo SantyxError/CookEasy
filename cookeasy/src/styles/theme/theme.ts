@@ -89,6 +89,19 @@ interface DefaultTheme {
     10: string;
   };
 
+  lineHeight: {
+    1: string; // Tamaño más pequeño
+    2: string;
+    3: string;
+    4: string;
+    5: string;
+    6: string;
+    7: string;
+    8: string;
+    9: string;
+    10: string;
+  };
+
   opacity: {
     1: string;
     2: string;
@@ -149,16 +162,16 @@ export const theme: DefaultTheme = {
   },
 
   fontSize: {
-    1: "0.2rem", // Tamaño más pequeño
-    2: "0.4rem",
-    3: "0.6rem",
-    4: "0.8rem",
-    5: "1rem",
-    6: "1.2rem",
-    7: "1.4rem",
-    8: "1.6rem",
-    9: "1.8rem",
-    10: "2rem", // Tamaño más grande
+    1: "0.6rem", // Tamaño más pequeño
+    2: "0.8rem",
+    3: "1rem",
+    4: "1.2rem",
+    5: "1.4rem",
+    6: "1.6rem",
+    7: "1.8rem",
+    8: "2rem",
+    9: "3rem",
+    10: "4.5rem", // Tamaño más grande
   },
 
   spacing: {
@@ -213,6 +226,19 @@ export const theme: DefaultTheme = {
     10: "0 16px 32px rgba(0, 0, 0, 0.55)",
   },
 
+  lineHeight: {
+    1: "0.6rem", // Tamaño más pequeño
+    2: "0.8rem",
+    3: "1rem",
+    4: "1.2rem",
+    5: "1.4rem",
+    6: "1.6rem",
+    7: "1.8rem",
+    8: "2rem",
+    9: "3rem",
+    10: "4.5rem", // Tamaño más grande
+  },
+
   opacity: {
     1: "0.1",
     2: "0.2",
@@ -242,6 +268,6 @@ export const theme: DefaultTheme = {
     7: 70,
     8: 80,
     9: 90,
-    10: 100, // Valor más alto
+    10: 100, 
   },
 };
