@@ -77,7 +77,7 @@ const TAG = {
   default: css``,
 };
 
-export const TextComponent = styled(
+export const Text = styled(
   ({ as = "span", children, className, ...rest }: TextProps) =>
     React.createElement(as, { className, ...rest }, children)
 )`

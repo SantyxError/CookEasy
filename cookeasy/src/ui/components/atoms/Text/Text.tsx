@@ -1,5 +1,5 @@
 import React from "react";
-import { TextComponent } from "./Text.styled";
+import { Text as TextComponent } from "./Text.styled";
 
 type Tag = "p" | "span" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 type Size = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10";
